@@ -20,7 +20,7 @@ Execute Django admin and create details for 10 books
 
 ## PROGRAM
 
-'''
+~~~
 admin.py
 
 from django.contrib import admin
@@ -40,13 +40,12 @@ class CarsRR_DB(models.Model):
 class CarsRR_DBAdmin(admin.ModelAdmin):
       list_display=["car_model","series","color","price","fancy_number"]
 
+~~~
 
-'''
-
-## OUTPUT
+## OUTPUT:
 ![alt text](<Screenshot (18).png>)
 
 
 
-## RESULT
+## RESULT:
 Thus the program for creating car inventory database database using ORM hass been executed successfully
